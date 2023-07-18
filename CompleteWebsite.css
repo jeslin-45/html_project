@@ -1,0 +1,141 @@
+*{
+    margin:0; 
+    padding:0;
+   box-sizing: border-box;
+   border-radius: 8px; 
+   font-family:  'poppins';
+    
+}
+.icon{
+    width: 500px;
+    display:flex; 
+    margin-left: 1250px;
+} 
+.container{
+    height: 50px; 
+    width: 100%; 
+    background-color:darkmagenta;
+    opacity: 1;
+    color:white;
+    font-size: larger; 
+    justify-content: center; 
+    }
+a.fb{
+  margin-left: 10px;
+  cursor: pointer; 
+  color: white;
+  
+}
+a.fb:hover{
+    color:blueviolet;
+    
+    
+}
+p{
+    margin-left: 50px;
+    font-family:  'poppins';
+    text-align: center;
+}
+.p{
+    list-style:none;
+    display:flex;
+    padding:10px 0; 
+    justify-content: center; 
+    
+} 
+a.cs{
+    margin-left:10px;
+    background-color: white;
+    display: block;
+    list-style:none;
+    width:250px;
+    text-decoration:none;
+    color:blueviolet;
+    padding:10px 0;
+    font-size: 1.2rem; 
+    text-align:center;
+
+} 
+a.cs:hover{
+    background-color:blueviolet; 
+    color: white;
+}
+.c{
+    list-style: none;
+    display:none 
+} 
+.p li:nth-child(2):hover .c{
+    display:block;
+}
+.sc{
+    list-style: none;
+    display:none 
+}
+.c li:nth-child(1):hover .sc{
+    display:block; 
+    transform: translateX(250px)translateY(-5px);
+    position:absolute;
+    cursor: pointer;
+    
+}
+.sd{
+    list-style: none;
+    display:none 
+}
+.c li:nth-child(2):hover .sd{
+    display:block;
+    transform: translateX(250px)translateY(-1px);
+    position:absolute;
+    cursor: pointer;
+}
+.md{
+    list-style: none;
+    display:none 
+}
+.c li:nth-child(3):hover .md{
+    display:block;
+    transform: translateX(250px)translateY(0px);
+    position:absolute;
+    cursor: pointer;
+}
+.ja{
+    list-style: none;
+    display:none;
+}
+.c li:nth-child(4):hover .ja{
+    display:block;
+    transform: translateX(250px)translateY(2px);
+    position:absolute;
+    cursor: pointer;
+}
+.ser{
+    list-style: none;
+    display:none;
+}
+.p li:nth-child(3):hover .ser{
+    display:block;
+}
+.brand{
+    list-style: none;
+    display:none;
+
+}
+.ser li:nth-child(4):hover .brand{
+    display:block;
+    transform: translateX(250px)translateY(2px);
+    position:absolute;
+}
+.cu{
+    list-style: none;
+    display:none;
+
+}
+
+.p li:nth-child(4):hover .cu{
+    display:block;
+} 
+body{
+    background-image: url("webImage.webp");
+    background-attachment: fixed;
+    background-size: cover;
+}
